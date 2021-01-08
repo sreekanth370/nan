@@ -36,6 +36,7 @@ matrix:
   exclude:
     - os: osx
       env: TRAVIS_NODE_VERSION="0.12"
+  # exclude unsupport ppc64le node versions
     - arch: ppc64le
       env: TRAVIS_NODE_VERSION="0.10"
     - arch: ppc64le
